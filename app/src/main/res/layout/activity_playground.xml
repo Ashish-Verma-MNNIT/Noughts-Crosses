@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:background="@color/teal_200"
     tools:ignore="UnknownId">
 
     <LinearLayout
@@ -184,8 +185,10 @@
         android:layout_marginEnd="280dp"
         android:layout_marginRight="280dp"
         android:text="Player One"
+        android:gravity="center"
         android:textSize="20sp"
         android:visibility="visible"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -197,8 +200,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
+        android:textColor="@color/white"
         android:textSize="25sp"
         android:visibility="visible"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.098"
@@ -213,6 +218,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Player Two"
+        android:textColor="@color/white"
+        android:gravity="center"
         android:textSize="20sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -231,6 +238,8 @@
         android:layout_marginEnd="60dp"
         android:layout_marginRight="60dp"
         android:text="0"
+        android:textColor="@color/white"
+        android:gravity="center"
         android:textSize="25sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -258,13 +267,15 @@
         android:layout_width="178dp"
         android:layout_height="49dp"
         android:layout_marginBottom="28dp"
+        android:gravity="center"
         android:text="Reset Game"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PlayerStatus"
-        app:layout_constraintVertical_bias="0.949" />
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.946" />
+       app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
         app:layout_constraintVertical_bias="0.794" />
 </androidx.constraintlayout.widget.ConstraintLayout>
